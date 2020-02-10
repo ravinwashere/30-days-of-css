@@ -1,0 +1,49 @@
+body {
+    font-family: arial;
+    font-size: 1em;
+    margin: 0 auto;
+    width: 60%;
+    background: #aaa;
+}
+
+h2 {
+    text-align: center;
+}
+
+.sec-1 {
+    border: 20px solid transparent;
+    border-image: url("border.png") 27 round;
+    /* border-image: url("butter.jpg") 70 repeat; */
+    padding: 1rem;
+    margin-bottom: 3rem;
+}
+
+.sec-2 {
+    border: 20px solid transparent;
+    
+    border-image: url("butter.jpg") 70 0 round;
+    padding: 1rem;
+    margin-bottom: 3rem;
+
+}
+
+.sec-3 {
+
+    border-bottom-style: solid;
+    border-width: 20px;
+    border-image: url("butter.jpg") 70 round;
+    padding: 1rem;
+    margin-bottom: 3rem;
+
+}
+
+.sec-4 {
+  
+    border-bottom-style: solid;
+    border-width: 5px;
+    border-image: linear-gradient(to right, #aaa 15%, #11998e 48%, #38ef7d 52%, #aaa 85%) 79 stretch;
+    padding: 1rem;
+    margin-bottom: 3rem;
+
+
+}
